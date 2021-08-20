@@ -1,0 +1,21 @@
+Synchronous javascript
+======================
+
+Javascript run ONE statement at a time
+console.log("one"); 
+console.log("two"); 
+console.log("three"); 
+
+Async javascript: Governs we perform tasks that takes sometime to complete
+(Eg: reading data from a database, reading data from file)
+start something now and finish later
+
+Javascript executes code one statement at a time.
+statement1;
+statement2;
+statement3; --> this is to read database (it takes a while)
+statement4; because of the third statement, 4th statement is blocked from getting
+executed
+
+
+
